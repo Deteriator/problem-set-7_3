@@ -1,0 +1,32 @@
+{
+  "name": "problem-set-7_3",
+  "version": "1.0.0",
+  "description": "Another to-do list, now API implementation",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deteriator/problem-set-7_3.git"
+  },
+  "author": "Deteriator",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deteriator/problem-set-7_3/issues"
+  },
+  "homepage": "https://github.com/Deteriator/problem-set-7_3#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "node": "10.19.x",
+  }
+}
+
